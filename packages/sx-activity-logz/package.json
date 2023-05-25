@@ -1,0 +1,62 @@
+{
+  "name": "@myorg/sx-activity-logz",
+  "version": "0.1.0",
+  "author": "mcasmakeen@gmail.com",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "development": "./src/index.js",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "test"
+  ],
+  "scripts": {
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@myorg/shared": "workspace:*",
+    "@myorg/shell": "workspace:*"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.10.16",
+    "@mui/lab": "5.0.0-alpha.131",
+    "@mui/material": "^5.10.17",
+    "aws-amplify": "^5.2.3",
+    "bootstrap": "^5.2.3",
+    "moment": "^2.29.4",
+    "mui": "^0.0.1",
+    "open-sans-fontface": "^1.4.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^0.32.4",
+    "react-datepicker": "^4.12.0",
+    "react-dom": "^18.2.0",
+    "react-froala-wysiwyg": "^4.0.19",
+    "react-router-dom": "^5.3.4",
+    "swiper": "^9.3.2"
+  },
+  "peerDependencies": {
+    "@mui/icons-material": "5.x",
+    "@mui/material": "5.x",
+    "@mui/styles": "5.x",
+    "@types/node": "*",
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "@vitejs/plugin-react-swc": "3.x",
+    "react": "18.x",
+    "react-dom": "18.x",
+    "react-router-dom": "5.x",
+    "typescript": "4.x",
+    "vite": "4.x",
+    "vitest": "*"
+  }
+}

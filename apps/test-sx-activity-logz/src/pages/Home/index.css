@@ -1,0 +1,24 @@
+.FranchiseNotes textarea.form-control {
+  width: 100% !important;
+}
+
+.FranchiseNotes .email-attachment span {
+  margin-left: 10px;
+}
+
+.FranchiseNotes .attachment {
+  display: inline-block;
+  position: relative;
+}
+
+.FranchiseNotes .email-attachment {
+  padding-right: 30px;
+}
+
+.FranchiseNotes .attachment span {
+  position: absolute;
+  right: 14px;
+  top: 2px;
+  padding: 5px;
+  cursor: pointer;
+}

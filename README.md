@@ -1,5 +1,22 @@
 Monorepo starter using Vite and Turborepo to create microfrontend React apps, libraries, docs, testing, tooling, and more.
 
+# sx
+> npm install -g plop
+> pnpm -w install handlebars --save-dev
+> pnpm new-library sx-activity-logz
+> pnpm new-app test-sx-activity-logz
+```
+testing of sx-activity-logz
+mcasmakeen@gmail.com
+```
+
+> pnpm run dev --filter test-sx-activity-logz
+
+### sx-activity-logs package
+> pnpm --filter sx-activity-logz add -D aws-amplify moment react-froala-wysiwyg react-router-dom @material-ui/core @mui/material @mui/lab mui prop-types react-datepicker @mui/icons-material react-bootstrap@^0.32.4 prop-types swiper open-sans-fontface bootstrap @fortawesome/fontawesome-free react react-dom --save-dev
+
+> pnpm --filter sx-activity-logz add -D --save-dev @types/react @types/prop-types @types/react-bootstrap
+
 # Requirements
 
 Install [pnpm](https://pnpm.io/).

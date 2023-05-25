@@ -1,0 +1,85 @@
+{
+    "data": {
+        "note": null,
+        "creator": null,
+        "category": 0,
+        "createdDate": "0001-01-01T00:00:00",
+        "isManagmentNote": true,
+        "canAddNotes": true,
+        "canSeeManagementNotes": true,
+        "noteList": [
+            {
+                "id": 19,
+                "creator": "steenl",
+                "agentJobNum": "",
+                "noteText": "tester",
+                "createdDateUTC": "2023-05-10T21:56:35",
+                "category": 1,
+                "attachments": [
+                    {
+                        "bucket": "prod-quote-doc",
+                        "key": "franchise notes/Widespan_Head_Office/19/20211207 Engineering Letter (Apex Engineering Group PTY LTD) SSDY214016.pdf",
+                        "regionSystemName": "ap-southeast-2"
+                    },
+                    {
+                        "bucket": "prod-quote-doc",
+                        "key": "franchise notes/Widespan_Head_Office/19/goal.png",
+                        "regionSystemName": "ap-southeast-2"
+                    },
+                    {
+                        "bucket": "prod-quote-doc",
+                        "key": "franchise notes/Widespan_Head_Office/19/invoice.html",
+                        "regionSystemName": "ap-southeast-2"
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "creator": "victoriah",
+                "agentJobNum": "",
+                "noteText": "26/06/17 - FW: STUART LORD JOBS - Internal Jobs: 170726 & 170727 - External Agent jobs - 171452 & 171453  ...... Greg emailed to JayH (ccd AG and JF)  Hi Jay, \r\n\r\nI have lighted the job numbers below. I believe the client is seeking the discount he was given on the Wide Span jobs, as a repeat customer buying two new sheds, to be applied to the jobs to which they have been transferred too. \r\n\r\nThe would be Stuart Lord giving the additional discount, and any contigent impact on his commision. \r\n\r\nThe two internal jobs have not been cancelled, I assume this will be done with Paul Aiomanu’s commison remaining intact. \r\n\r\nI have not been privvy to any decsion made by Ash Gale regarding this or instruction given to Vitoria. Nor have I had any previous knowledge of these matters.\r\nand inserted notes from within the sms job......................... JH to Greg reply with (AG and JF ccd) Hi Greg,\r\n\r\nThanks, I will discuss with Vic and the agent. I was not involved with any decisions in this either, however, I was aware of the situation. I agree that any further discounts will come out of Stuart’s commissions. \r\n\r\nCheers,\r\nJay \r\n.........................JF emailed Greg/JayH/DF and ccd AG - If we are transferring full funds to another job we will not be paying commissions. That is NEVER to happen............................DF has emailed me (Victoria) As discussed Victoria, please see CL communication 23 June 2017 and consider his entitlement after Agent had requested funds transferred to new job numbers. Also note comment from James below, copied to Jay. ..........................................Heather from CE team has forwarded me an email she has received from client ... Hi Victoria,\r\n\r\nPlease see email from CL below where he had cancelled two jobs and had funds transferred across to the new jobs.   He said you had promised him a discount of 2% as he was purchasing (2) jobs.... client to Heather, Hi Heather,\r\n\r\nI refer to our phone discussion this morning. \r\n\r\nThank you for your emails regarding the adjustments from the deposits paid for my two cancelled shed orders (– WSS170726 and WSS170727) to the balance for our two new sheds.\r\n\r\nAs part of the ordering process for the previous sheds, a further ‘extra discount’ was applied to both sheds for a ‘repeat customer buying 2x more sheds’, and this was to come off the final 50% balance.  See attached email trail from Paul Aiomanu of 01/03/2017.\r\n\r\nI would appreciate it if this extra discount could now be applied to the current order for the two sheds (WSS17152 and WSS17153).\r\n\r\nKind Regards\r\n\r\nGraham Brookes\r\n.......................................................Hi David,\r\n\r\nAs per your email below and the one attached I have just received from Heather.\r\n\r\nAt No time did I speak/discuss anything with the client \r\nAlso at No time did the WSS agent (Stuart Lord) mention anything about discount offer by our internal sales person (Paul Aiomanu) nor did I discuss any of this with Paul.\r\n\r\nAs per my notes below – You (David) and I spoke to James (and I did not disclose to James who the internal sales person was as I did not want anything to be perceived as my being bias or interference by me due to the relationship between Paul and I),  James advised that as the internal sales person had already been paid for the job done, so we would retain 5% of each job deposit …..…. Refer notes below and highlighted yellow.\r\n\r\nThe two Variations of discounts in Heathers email (attached above) are from internal sales to client for the internal jobs.\r\nIf the WSS Agent Stuart Lord wants to offer discount variations to his client on the two jobs he ended up selling then that is up to him and as Jay Higgins has noted in his reply email further below – I agree that any further discounts will come out of Stuart’s commissions.\r\n\r\nHope this clarifies for everyone – Lastly David, the client has also called Heather to advise he needs to pay his final payment on these two jobs but is not happy to do so until he receives his further discounts.\r\nI will now leave this with you to discuss with Jay Higgins on the outcome of “further discounts”\r\nAlso as money has been retain on the two jobs internal sold WSS170726 & WSS170727 they cannot be cancelled – as far as I am aware??  They may need to be pushed to end of line maybe? otherwise they will just sit there on someone’s dashboard?? (CE/Rose or the internal sales person PA) ???\r\n\r\n",
+                "createdDateUTC": "2017-06-26T06:36:21",
+                "category": 1,
+                "attachments": []
+            },
+            {
+                "id": 17,
+                "creator": "victoriah",
+                "agentJobNum": "",
+                "noteText": "WSS170726 & WSS170727 - sold by internal WSS sales person (PA) - after client had paid 10% deposit on both jobs and returned all contract docs signed - he discovered that Stuart Lord WSSA was a local agent - after much discussion between the WSSA and client the agent advised that the client now wanted to deal with him - agent contacted EUST asking for the clients jobs with the internal agent to be cancelled and the deposits transferred to two jobs he was now creating for the client WSS171452 & WSS171453, EUST advised we could not action this and I (VH) advised I would need to speak to management to see what can be done.   After discussing with DF and JF (normal process is that the client would lose the 10% deposit) but JF has advised we will keep 5% for admin costs and that the internal sales person has already been paid commission for the jobs originally processed........ I spoke to the WSS agent Stuart yesterday and informed him of this action and that \"we must receive a cancellation letter from the client and confirming that he accepts he will lose 5% deposit on both the original jobs\" as until this has been received we cannot action the two new ones set up by the WSSA - today the client has paid 50% on both of the WSS agent jobs and has returned the contract docs - but we still do not have the clients letter - I have contacted the WSSA to reiterate that we need this clients letter to move forward.",
+                "createdDateUTC": "2017-05-24T03:41:41",
+                "category": 1,
+                "attachments": []
+            },
+            {
+                "id": 16,
+                "creator": "victoriah",
+                "agentJobNum": "",
+                "noteText": "WSS163074 - Steen has sent me quite lengthy email email with other email correspondence attached relating to how poorly handled this quote/job was by the Fox's. I have advised him that it appears he is sorting with Rose's assistance but that I would speak to the agents regarding their attitude and reminding them they can have engineering site check done prior to sending out contract to ensure the client is not getting surprise engineering variation.",
+                "createdDateUTC": "2017-03-23T00:32:54",
+                "category": 1,
+                "attachments": []
+            },
+            {
+                "id": 15,
+                "creator": "victoriah",
+                "agentJobNum": "",
+                "noteText": "Job WSS162051 - David Fitzgerald emailed David Fox today, Good afternoon David,\r\nPlease find below an email from Anne Greenway, dated Friday, 24 February 2017. Anne has advised that she has a shed builder on site to finish off the shed and a carpenter to build the external walls is booked for this Monday Feb 27th. Heather tried to call the customer yesterday to discuss the matter and the customer spoke the whole time then, when she had finished what she wanted to say, she put the phone down on Heather. We wish to make you aware of the following points;\r\n\r\n1)\tAnne has requested that our Engineer responds to the attached Council Inspection Request / Result form, which lists the reasons why work on her project cannot be finalised. \r\n2)\tAnne alleges in her email that when she first approached you to supply a shed structure she made very clear to you its purpose and the proposed finished construction.\r\n3)\tThe attached Council Inspection Request / Result form requires the Owner get written clarification from an Engineer on a number of issues. \r\n4)\tThe Wide Span Sheds Plan Documentation makes very clear under the bold heading ‘BUILDING CONSTRUCTION REQUIREMENTS’ in the General Notes Page 1 of 1  ‘The Purchaser / Owner is to be ensured that all building construction is carried out in accordance with the Plans, the Construction Manual and the Bill of Materials (BOM)’. The Plans support the use of single C15012 columns and we can provide Singleton Council with evidence in support of the use of single C15012 columns.\r\n5)\tHowever, Anne will need to satisfy Singleton Council on all other matters detailed on the Inspection Request / Result form. You will be aware that Wide Span Sheds is not responsible for any of these other issues. \r\n6)\tThe Council Inspection Request / Result form states ‘Note: Base plate bolted to slab – Construction Manual allows for this variation’. We must make clear that the Certified Plan Documents show the main columns cast in using Embedded Column Base Plates.\r\n7)\tYou will also be aware David that we do not certify timber frames.  \r\n8)\tWhen Heather phoned the customer yesterday the customer said she is fed up with the situation and that she has sent everything to you to sort out.  She suggested this was an internal miscommunication issue and that she is standing back from it but that it needs to be sorted out by Wide Span Sheds. She advised Heather that sheeting the shed was discussed with you from the beginning and that you had advised her there would be no issue with this. The customer did not allow Heather to speak but talked almost the whole time, then suggested Heather needed to sort the matter in the next 24 hours as this was holding up her job and then she hung up the phone.\r\n\r\nWe were not privy to any of the discussions that Anne suggests took place between the two of you but it is clear that there are some issues here that you will need to resolve with the customer. If you believe we can be of any assistance please contact us. \r\n",
+                "createdDateUTC": "2017-02-28T04:59:16",
+                "category": 1,
+                "attachments": []
+            },
+            {
+                "id": 14,
+                "creator": "Alanc",
+                "agentJobNum": "JMF43901",
+                "noteText": "Hi Joel\r\nI am just testing CRm and I would be grateful if you could confirm receipt of this email. I am also curious about how we might exclude access to the notesif for example somehting was legally privileged or likely to be so and so I wonder if it might not be useful to creat a separate use called Legal Department?\r\n\r\nAny ideas",
+                "createdDateUTC": "2014-02-17T02:30:23",
+                "category": 1,
+                "attachments": []
+            }
+        ]
+    },
+    "success": true,
+    "message": null
+}

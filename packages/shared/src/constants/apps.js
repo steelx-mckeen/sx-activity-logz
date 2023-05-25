@@ -19,6 +19,13 @@ const apps = [
     description: 'MyOrg Login',
     color: '#ffffff',
     contactEmail: 'hi@agarun.com'
+  },
+  {
+    href: '/logs',
+    icon: HelpIcon,
+    description: 'activity logs',
+    color: '#ffffff',
+    contactEmail: 'hi@agarun.com'
   }
   // add default apps
   // ❗ Please do not modify the `// add default apps` line above.
