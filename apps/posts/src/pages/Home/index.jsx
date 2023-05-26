@@ -1,5 +1,5 @@
-import Shell from '@myorg/shell';
-import { Spinner } from '@myorg/posts-ui';
+import Shell from '@steelxorg/shell';
+import { Spinner } from '@steelxorg/posts-ui';
 import { Box, Typography } from '@mui/material';
 import { Link } from 'react-router-dom';
 
@@ -8,7 +8,7 @@ function Home() {
     <Shell>
       <Box p={2}>
         <Typography>
-          This is the MyOrg Posts Homepage from <code>@myorg/posts</code>.
+          This is the MyOrg Posts Homepage from <code>@steelxorg/posts</code>.
         </Typography>
         <Link to="/">Click to go back home.</Link>
         <Box>

@@ -27,7 +27,7 @@ export default function Header() {
             <DashboardIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            This is the Dashboard layout from <code>@myorg/shell</code>
+            This is the Dashboard layout from <code>@steelxorg/shell</code>
           </Typography>
           <Button color="inherit" onClick={() => history.push('/login')}>
             Login &rarr;

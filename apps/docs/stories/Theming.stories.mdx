@@ -1,6 +1,6 @@
 import { Meta, ColorPalette, ColorItem, Typeset } from '@storybook/blocks';
-import { theme } from '@myorg/shared';
-import { Baseline } from '@myorg/shell';
+import { theme } from '@steelxorg/shared';
+import { Baseline } from '@steelxorg/shell';
 import Stack from '@mui/material/Stack';
 
 <Meta title="Theming" />
@@ -52,10 +52,10 @@ export const useStyles = makeStyles(theme => ({
 
 ## Using `theme` directly
 
-To use `theme` with a different styling option, we can import from `@myorg/shared`:
+To use `theme` with a different styling option, we can import from `@steelxorg/shared`:
 
 ```jsx
-import { theme } from '@myorg/shared';
+import { theme } from '@steelxorg/shared';
 
 function Dashboard() {
   return <div style={{ margin: theme.spacing(2) }}>Welcome!</div>;

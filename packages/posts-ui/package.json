@@ -1,5 +1,5 @@
 {
-  "name": "@myorg/posts-ui",
+  "name": "@steelxorg/posts-ui",
   "version": "0.1.0",
   "author": "Aaron Agarunov",
   "type": "module",
@@ -22,8 +22,8 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@myorg/shared": "workspace:*",
-    "@myorg/shell": "workspace:*"
+    "@steelxorg/shared": "workspace:*",
+    "@steelxorg/shell": "workspace:*"
   },
   "devDependencies": {},
   "peerDependencies": {

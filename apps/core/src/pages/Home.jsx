@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Box, Card, Typography } from '@mui/material';
-import { apps } from '@myorg/shared';
-import { Dashboard } from '@myorg/shell';
+import { apps } from '@steelxorg/shared';
+import { Dashboard } from '@steelxorg/shell';
 import { Link } from 'react-router-dom';
 
 export default function Home() {

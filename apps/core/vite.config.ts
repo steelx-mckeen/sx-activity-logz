@@ -18,8 +18,8 @@ export default defineConfig({
           viteSentry({
             authToken: process.env.REACT_APP_SENTRY_TOKEN,
             url: process.env.REACT_APP_SENTRY,
-            org: 'myorg',
-            project: 'myorg-client',
+            org: 'steelxorg',
+            project: 'steelxorg-client',
             release: '1.0',
             deploy: {
               env: 'production'

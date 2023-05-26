@@ -10,8 +10,8 @@ import { Tabs, Tab, FormGroup, Checkbox, Row, Col } from "react-bootstrap";
 // import CONFIG from '../../../config';
 
 import "./index.css";
-import { ActivityLog } from '@myorg/sx-activity-logz';
-import { LoadingButton } from '@myorg/sx-activity-logz';
+import { ActivityLog } from '@steelxorg/sx-activity-logz';
+import { LoadingButton } from '@steelxorg/sx-activity-logz';
 // import LoadingButton from "./components/LoadingButton/LoadingButton.jsx";
 // import ActivityNotes from "./components/ActivityLog/ActivityLog.jsx";
 // import ActivityNotes from "sx-activity-logs";

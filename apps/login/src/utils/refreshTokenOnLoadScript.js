@@ -6,7 +6,7 @@
  * we risk the client browsing the page or making requests with expired tokens.
  *
  * With this minified payload, we create a refresh token request before or while the app loads.
- * In `@myorg/core`, it is added to the `index.html` template.
+ * In `@steelxorg/core`, it is added to the `index.html` template.
  */
 
 const fs = require('fs');

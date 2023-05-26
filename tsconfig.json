@@ -19,7 +19,7 @@
     "types": ["vitest/globals"],
     "baseUrl": ".",
     "paths": {
-      "@myorg/*": ["packages/*/src/index", "apps/*/src/App"]
+      "@steelxorg/*": ["packages/*/src/index", "apps/*/src/App"]
     }
   },
   "include": ["apps", "packages"]

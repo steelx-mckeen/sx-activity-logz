@@ -1,5 +1,5 @@
 {
-  "name": "@myorg/docs",
+  "name": "@steelxorg/docs",
   "private": true,
   "author": "Aaron Agarunov",
   "version": "1.0.0",
@@ -10,8 +10,8 @@
     "clean": "rm -rf .turbo && rm -rf node_modules"
   },
   "dependencies": {
-    "@myorg/shared": "workspace:*",
-    "@myorg/shell": "workspace:*",
+    "@steelxorg/shared": "workspace:*",
+    "@steelxorg/shell": "workspace:*",
     "@storybook/addon-essentials": "^7.0.0-beta.13",
     "@storybook/manager-api": "^7.0.0-beta.13",
     "@storybook/theming": "^7.0.0-beta.13"
@@ -19,7 +19,7 @@
   "devDependencies": {
     "@storybook/react": "^7.0.0-beta.13",
     "@storybook/react-vite": "^7.0.0-beta.13",
-    "eslint-config-myorg": "workspace:*",
+    "eslint-config-steelxorg": "workspace:*",
     "storybook": "^7.0.0-beta.13"
   },
   "peerDependencies": {

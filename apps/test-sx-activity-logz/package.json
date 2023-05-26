@@ -1,5 +1,5 @@
 {
-  "name": "@myorg/test-sx-activity-logz",
+  "name": "@steelxorg/test-sx-activity-logz",
   "version": "0.1.0",
   "author": "mcasmakeen@gmail.com",
   "type": "module",
@@ -22,9 +22,9 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@myorg/shared": "workspace:*",
-    "@myorg/shell": "workspace:*",
-    "@myorg/sx-activity-logz": "workspace:*"
+    "@steelxorg/shared": "workspace:*",
+    "@steelxorg/shell": "workspace:*",
+    "@steelxorg/sx-activity-logz": "workspace:*"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",

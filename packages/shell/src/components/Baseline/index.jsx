@@ -1,8 +1,8 @@
 import React from 'react';
 import { CssBaseline } from '@mui/material';
-import { getScrollbarSize } from '@myorg/shared';
+import { getScrollbarSize } from '@steelxorg/shared';
 import { Global, css } from '@emotion/react';
-import { theme } from '@myorg/shared';
+import { theme } from '@steelxorg/shared';
 
 function Baseline() {
   return (

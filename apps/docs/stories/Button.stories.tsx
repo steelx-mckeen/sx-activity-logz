@@ -25,7 +25,7 @@ Button.defaultProps = {
 };
 
 const meta: Meta<typeof Button> = {
-  title: '@myorg／shell/components/Button',
+  title: '@steelxorg／shell/components/Button',
   component: Button
 };
 

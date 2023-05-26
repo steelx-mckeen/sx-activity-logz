@@ -1,14 +1,14 @@
 import React from 'react';
-import { Baseline, Dashboard } from '@myorg/shell';
-import { theme } from '@myorg/shared';
+import { Baseline, Dashboard } from '@steelxorg/shell';
+import { theme } from '@steelxorg/shared';
 import { Helmet } from 'react-helmet';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Provider from './provider';
 
 const CoreApp = React.lazy(() => import('./routes'));
-const LoginApp = React.lazy(() => import('@myorg/login'));
-const PostsApp = React.lazy(() => import('@myorg/posts'));
-const ActivityLogs = React.lazy(() => import('@myorg/test-sx-activity-logz'));
+const LoginApp = React.lazy(() => import('@steelxorg/login'));
+const PostsApp = React.lazy(() => import('@steelxorg/posts'));
+const ActivityLogs = React.lazy(() => import('@steelxorg/test-sx-activity-logz'));
 
 function DefaultFallback({ children, fallback }) {
   return (

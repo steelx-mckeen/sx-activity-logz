@@ -48,7 +48,7 @@ module.exports = function (plop) {
         type: 'modify',
         path: 'apps/core/package.json',
         pattern: /"dependencies":\s*{/,
-        template: '"dependencies": {\n    "@myorg/{{name}}": "workspace:*",'
+        template: '"dependencies": {\n    "@steelxorg/{{name}}": "workspace:*",'
       },
       {
         type: 'modify',
@@ -56,7 +56,7 @@ module.exports = function (plop) {
         pattern:
           /const CoreApp = React.lazy\(\(\) => import\('\.\/routes'\)\);/,
         template: `const CoreApp = React.lazy(() => import('./routes'));
-const {{titleCaseWithoutSpace name}}App = React.lazy(() => import('@myorg/{{name}}'));`
+const {{titleCaseWithoutSpace name}}App = React.lazy(() => import('@steelxorg/{{name}}'));`
       },
       {
         type: 'modify',
@@ -126,7 +126,7 @@ const {{titleCaseWithoutSpace name}}App = React.lazy(() => import('@myorg/{{name
         type: 'modify',
         path: 'apps/core/package.json',
         pattern: /"dependencies":\s*{/,
-        template: '"dependencies": {\n    "@myorg/{{name}}": "workspace:*",'
+        template: '"dependencies": {\n    "@steelxorg/{{name}}": "workspace:*",'
       },
       {
         type: 'modify',
@@ -134,7 +134,7 @@ const {{titleCaseWithoutSpace name}}App = React.lazy(() => import('@myorg/{{name
         pattern:
           /const CoreApp = React.lazy\(\(\) => import\('\.\/routes'\)\);/,
         template: `const CoreApp = React.lazy(() => import('./routes'));
-const {{titleCaseWithoutSpace name}}App = React.lazy(() => import('@myorg/{{name}}'));`
+const {{titleCaseWithoutSpace name}}App = React.lazy(() => import('@steelxorg/{{name}}'));`
       },
       {
         type: 'modify',

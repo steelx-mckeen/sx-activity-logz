@@ -1,5 +1,5 @@
 {
-  "name": "@myorg/shell",
+  "name": "@steelxorg/shell",
   "author": "Aaron Agarunov",
   "version": "1.0.0",
   "type": "module",
@@ -21,7 +21,7 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@myorg/shared": "workspace:*"
+    "@steelxorg/shared": "workspace:*"
   },
   "peerDependencies": {
     "@mui/icons-material": "5.x",

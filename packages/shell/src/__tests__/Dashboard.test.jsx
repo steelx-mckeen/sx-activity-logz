@@ -1,5 +1,5 @@
 import { waitFor } from '@testing-library/react';
-import { renderWithRouter } from '@myorg/shared';
+import { renderWithRouter } from '@steelxorg/shared';
 import { Dashboard } from '../layouts';
 
 describe('renders layouts without crashing', () => {

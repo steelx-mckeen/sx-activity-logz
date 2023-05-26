@@ -1,5 +1,5 @@
 {
-  "name": "@myorg/core",
+  "name": "@steelxorg/core",
   "private": true,
   "author": "Aaron Agarunov",
   "version": "1.0.0",
@@ -12,12 +12,12 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "dependencies": {
-    "@myorg/test-sx-activity-logz": "workspace:*",
-    "@myorg/sx-activity-logz": "workspace:*",
-    "@myorg/login": "workspace:*",
-    "@myorg/posts": "workspace:*",
-    "@myorg/shared": "workspace:*",
-    "@myorg/shell": "workspace:*",
+    "@steelxorg/test-sx-activity-logz": "workspace:*",
+    "@steelxorg/sx-activity-logz": "workspace:*",
+    "@steelxorg/login": "workspace:*",
+    "@steelxorg/posts": "workspace:*",
+    "@steelxorg/shared": "workspace:*",
+    "@steelxorg/shell": "workspace:*",
     "@sentry/react": "^7.24.2",
     "@sentry/tracing": "^7.24.2",
     "react-helmet": "^6.1.0"

@@ -41,7 +41,7 @@ declare global {
 
 export {};
 
-// @myorg/login
+// @steelxorg/login
 let accessToken: string;
 Cypress.Commands.add('login', () => {
   Cypress.log({ name: 'loginApiUser' });

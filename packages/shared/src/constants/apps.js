@@ -10,7 +10,7 @@ const apps = [
     icon: PeopleAltIcon,
     description: 'MyOrg Posts',
     color: '#c1d2fb',
-    contactEmail: 'noreply@myorg.com',
+    contactEmail: 'noreply@steelxorg.com',
     tags: ['general']
   },
   {

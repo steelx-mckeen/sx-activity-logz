@@ -1,5 +1,5 @@
 const services = {
-  developmentAuth: 'https://dev.myorg.com/auth'
+  developmentAuth: 'https://dev.steelxorg.com/auth'
 };
 
 export { services };

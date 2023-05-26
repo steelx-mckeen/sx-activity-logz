@@ -1,5 +1,5 @@
 /**
- * @myorg/sx-activity-logz: activity log
+ * @steelxorg/sx-activity-logz: activity log
  */
 
 export { default as Calculator } from './components/Calculator';

@@ -1,4 +1,4 @@
-import { apps } from '@myorg/shared';
+import { apps } from '@steelxorg/shared';
 
 export const matchAppFromPath = path => {
   const currentApp = path.split('/')[1];

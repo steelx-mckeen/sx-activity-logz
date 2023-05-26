@@ -6,7 +6,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 // webfonts
-import '@myorg/shared/fonts/inter/inter.css';
+import '@steelxorg/shared/fonts/inter/inter.css';
 
 if (import.meta.env.REACT_APP_SENTRY_DSN) {
   Sentry.init({

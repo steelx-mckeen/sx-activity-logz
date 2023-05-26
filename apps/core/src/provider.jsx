@@ -1,4 +1,4 @@
-import { theme } from '@myorg/shared';
+import { theme } from '@steelxorg/shared';
 import { ThemeProvider } from '@mui/material/styles';
 
 function Provider({ children }) {

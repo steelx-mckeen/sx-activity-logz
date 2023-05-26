@@ -1,5 +1,5 @@
 import { waitFor } from '@testing-library/react';
-import { renderWithRouter } from '@myorg/shared';
+import { renderWithRouter } from '@steelxorg/shared';
 import App from '../App';
 
 describe('renders without crashing', () => {

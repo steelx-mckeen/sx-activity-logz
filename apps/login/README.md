@@ -4,6 +4,6 @@ MyOrg Login
 
 # Contributors
 
-`@myorg/login` is maintained by:
+`@steelxorg/login` is maintained by:
 
 - Aaron Agarunov

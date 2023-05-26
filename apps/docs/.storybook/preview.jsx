@@ -1,9 +1,9 @@
 import React from 'react';
-import { theme } from '@myorg/shared';
-import { Baseline } from '@myorg/shell';
+import { theme } from '@steelxorg/shared';
+import { Baseline } from '@steelxorg/shell';
 import { ThemeProvider } from '@mui/material/styles';
 import { MemoryRouter } from 'react-router-dom';
-import '@myorg/shared/fonts/inter/inter.css';
+import '@steelxorg/shared/fonts/inter/inter.css';
 
 export const decorators = [
   Story => (

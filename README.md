@@ -45,13 +45,13 @@ When writing tests, we have helpers available in both environments using [@testi
 
 # Production
 
-To deploy the `@myorg/core` app, from the root,
+To deploy the `@steelxorg/core` app, from the root,
 
 1. Run `pnpm build`
 
-2. Run `pnpm --filter "@myorg/core" run preview` to preview the app.
+2. Run `pnpm --filter "@steelxorg/core" run preview` to preview the app.
 
-In production, please see [`myorg/server`](https://github.myorg.com/myorg/myorg-server).
+In production, please see [`steelxorg/server`](https://github.steelxorg.com/steelxorg/steelxorg-server).
 
 # Tooling
 
@@ -92,27 +92,27 @@ UAT branches are available, and should be named `uat-<package>` to provide a dep
 
 Every time a commit is pushed up, it will have a new review app deployed.
 
-If it is a `uat-<package>` branch, it will be available at `https://review.myorg.com/uat-<package>`.
+If it is a `uat-<package>` branch, it will be available at `https://review.steelxorg.com/uat-<package>`.
 
-All other commits will be available to preview at `https://review.myorg.com/<commit-short-sha>`, where `<commit-short-sha>` is the first 8 characters of the commit hash.
+All other commits will be available to preview at `https://review.steelxorg.com/<commit-short-sha>`, where `<commit-short-sha>` is the first 8 characters of the commit hash.
 
 ## How do I add a dependency to my project?
 
-To add a dependency to a specific workspace, run `pnpm --filter "workspace" add <package-to-add>`, e.g. `pnpm --filter "@myorg/data" add d3`.
+To add a dependency to a specific workspace, run `pnpm --filter "workspace" add <package-to-add>`, e.g. `pnpm --filter "@steelxorg/data" add d3`.
 
 > **Note: Do not add dependencies to the root workspace.**
 
 ## What libraries should I know about?
 
-Please see our [Storybook](https://storybook.myorg.com) to see the docs and learn about what packages you can use. You can run Storybook locally while you work on your projects with `pnpm run docs`.
+Please see our [Storybook](https://storybook.steelxorg.com) to see the docs and learn about what packages you can use. You can run Storybook locally while you work on your projects with `pnpm run docs`.
 
-`@myorg/core`: Our main MyOrg web app
+`@steelxorg/core`: Our main MyOrg web app
 
-`@myorg/shell`: Our core UI and design library that extends and configures Material UI
+`@steelxorg/shell`: Our core UI and design library that extends and configures Material UI
 
-`@myorg/shared`: Shared code between all MyOrg packages
+`@steelxorg/shared`: Shared code between all MyOrg packages
 
-`@myorg/<app>-ui`: Packages with this name format are UI libraries built for specific apps but can still be used by other apps, e.g. `@myorg/dashboard-ui` was built for the Dashboard portal but may provide useful UI for your project
+`@steelxorg/<app>-ui`: Packages with this name format are UI libraries built for specific apps but can still be used by other apps, e.g. `@steelxorg/dashboard-ui` was built for the Dashboard portal but may provide useful UI for your project
 
 ## How do I version, tag, release, or publish a new version of a package?
 
@@ -122,7 +122,7 @@ A developer creates a changeset, which is just a changelog for the package being
 
 1. Ensure you are on a `next-<package>` branch. Merge `main` in
 2. Run `pnpm changeset-create` to write your changelog (use spacebar to pick packages)
-3. Run `pnpm changeset-save-prerelease <tag-suffix>` **only** if you want to create a specific prerelease version. For example, `pnpm changeset-save-prerelease rc` creates `@myorg/package@1.7.3-rc.0`
+3. Run `pnpm changeset-save-prerelease <tag-suffix>` **only** if you want to create a specific prerelease version. For example, `pnpm changeset-save-prerelease rc` creates `@steelxorg/package@1.7.3-rc.0`
 4. To create the new version, run `pnpm changeset-save`
 5. To publish the new version to the registry, run `pnpm changeset-tag-and-publish`
 6. To instead **only tag** the new versions, but not publish, run `pnpm changeset-tag`
@@ -130,6 +130,6 @@ A developer creates a changeset, which is just a changelog for the package being
 
 ## How do I fix CORS errors in development for a URL I am using in my project?
 
-If you are facing CORS errors in development, you may want to update your API's CORS rules in that environment. If that is not an option and your package is built with Vite (e.g. `@myorg/core`), please update the development server proxy rules:
+If you are facing CORS errors in development, you may want to update your API's CORS rules in that environment. If that is not an option and your package is built with Vite (e.g. `@steelxorg/core`), please update the development server proxy rules:
 
 In `apps/core/vite.config.ts`, configure your local API URL and the target API URL in the `server.proxy` object.

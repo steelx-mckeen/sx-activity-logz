@@ -1,5 +1,5 @@
 /**
- * @myorg/charts: MyOrg Charts
+ * @steelxorg/charts: MyOrg Charts
  */
 
 export { default as Calculator } from './components/Calculator';
